@@ -1,0 +1,64 @@
+.contactus{
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(rgba(129, 123, 123, 0.5),rgba(117, 105, 105, 0.5)),
+    url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-346529.jpg&fm=jpg");
+    background-size: cover;
+    }
+    .contactTitle{
+        font-size:40px;
+        color: #4B0082;
+        
+     
+    }
+    .contactForm{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+       
+        
+    
+    }
+    .contactForm > label{
+        margin: 10px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    .contactInput{
+        padding: 10px;
+        background-color: aliceblue;
+        border:none;
+    }
+    .contactButton{
+        margin-top: 20px;
+        cursor: pointer;
+        background-color: rgb(18, 9, 148);
+        border: none;
+        color: white;
+        border-radius: 20px;
+        padding: 8px;
+        font-size: 15px;
+    }
+    .registerLoginButton{
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: rgb(102, 26, 102);
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        color: white;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .contactMsg{
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+    }
